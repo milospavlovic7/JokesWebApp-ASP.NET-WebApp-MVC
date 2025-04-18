@@ -1,0 +1,43 @@
+## Build artifacts
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code settings
+.vscode/
+
+## Visual Studio specific folders
+.vs/
+
+## ASP.NET Core specific
+appsettings.Development.json
+appsettings.Local.json
+
+## Docker
+**/Dockerfile
+**/docker-compose*
+
+## Logs
+*.log
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## Node (ako koristiš npm/yarn za frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+## Environment files (ako koristiš .env)
+.env
+.env.*
+
+## Publish artifacts
+publish/
+*.publish.xml
